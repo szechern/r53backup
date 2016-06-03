@@ -2,8 +2,8 @@
 ##      Exports DNS records in your AWS Route53 account in BIND format
 ##      writes one copy to local directory and one copy to S3
 ##      ----------------------
-##		Written by: Tan Sze Chern (szechern@gmail.com)
-##		Environment: Python 3.x, boto3
+##	Written by: Tan Sze Chern (szechern@gmail.com)
+##	Environment: Python 3.x, boto3
 
 import boto3
 import sys
