@@ -102,6 +102,7 @@ class R53Backup(object):
 						f.write(bindRecord)
 					
 
+				f.close()
 				print("Backed up to "+bkpFile)
 
 				s3path = s3folder+"/"+fileName
